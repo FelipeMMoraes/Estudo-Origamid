@@ -50,6 +50,15 @@ p {
   max-width: 1000px;
 }
 
+.detalhe {
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: red;
+  right: -30px;
+  top: 30px;
+}
+
 .introducao {
   background: #fff;
   padding: 40px;
