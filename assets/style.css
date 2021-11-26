@@ -8,6 +8,16 @@ body {
   margin-top: 60px;
 }
 
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+header .menu {
+  margin-top: 60px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -110,3 +120,38 @@ p {
   width: 100%;
   text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .detalhe { display: none; }
+
+  .introducao {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+  }
+
+  .introducao a {
+    max-width: 200px;
+  }
+
+  .subtitulo {
+    padding: 60px 15px;
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .vantagens-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
